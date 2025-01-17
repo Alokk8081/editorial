@@ -13,7 +13,10 @@ const data=[
 
         image: prAlok,
 
-        price: "facebook",
+        link1: "https://www.instagram.com/s.h.r.e.s.t.h.a_/",
+
+        link2: "https://www.facebook.com/shresthagupta.gupta.758",
+        link3: "https://www.linkedin.com/in/shrestha-gupta-80085027b/",
     },
     {
         id: 2,
@@ -22,7 +25,10 @@ const data=[
 
         image: prAlok3,
         
-        price: "₹ 5,567",
+        link1: "https://www.instagram.com/s.h.r.e.s.t.h.a_/",
+
+        link2: "https://www.facebook.com/shresthagupta.gupta.758",
+        link3: "https://www.linkedin.com/in/shrestha-gupta-80085027b/",
 
     },
     {
@@ -32,7 +38,10 @@ const data=[
 
         image: prAlok2,
         
-        price: "₹ 7,567",
+        link1: "https://www.instagram.com/s.h.r.e.s.t.h.a_/",
+
+        link2: "https://www.facebook.com/shresthagupta.gupta.758",
+        link3: "https://www.linkedin.com/in/shrestha-gupta-80085027b/",
 
     },
     {
@@ -42,7 +51,10 @@ const data=[
 
         image: prAlok2,
         
-        price: "₹ 9,567",
+        link1: "https://www.instagram.com/s.h.r.e.s.t.h.a_/",
+
+        link2: "https://www.facebook.com/shresthagupta.gupta.758",
+        link3: "https://www.linkedin.com/in/shrestha-gupta-80085027b/",
 
     },
     {
@@ -52,7 +64,10 @@ const data=[
 
         image: prAlok3,
         
-        price: "₹ 11,567",
+        link1: "https://www.instagram.com/s.h.r.e.s.t.h.a_/",
+
+        link2: "https://www.facebook.com/shresthagupta.gupta.758",
+        link3: "https://www.linkedin.com/in/shrestha-gupta-80085027b/",
 
     },
     {
@@ -62,7 +77,10 @@ const data=[
 
         image: prAlok2,
         
-        price: "₹ 3,567",
+        link1: "https://www.instagram.com/s.h.r.e.s.t.h.a_/",
+
+        link2: "https://www.facebook.com/shresthagupta.gupta.758",
+        link3: "https://www.linkedin.com/in/shrestha-gupta-80085027b/",
 
     },
     {
@@ -72,7 +90,11 @@ const data=[
 
         image: prAlok,
         
-        price: "₹ 4,567",
+        link1: "https://www.instagram.com/s.h.r.e.s.t.h.a_/",
+
+        link2: "https://www.facebook.com/shresthagupta.gupta.758",
+
+        link3: "https://www.linkedin.com/in/shrestha-gupta-80085027b/",
 
     },
     {
@@ -82,7 +104,10 @@ const data=[
 
         image: prAlok2,
         
-        price: "₹ 7,567",
+        link1: "https://www.instagram.com/s.h.r.e.s.t.h.a_/",
+
+        link2: "https://www.facebook.com/shresthagupta.gupta.758",
+        link3: "https://www.linkedin.com/in/shrestha-gupta-80085027b/",
 
     },
     

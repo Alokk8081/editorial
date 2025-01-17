@@ -1,11 +1,12 @@
-import { useState } from "react";
+import { FaInstagramSquare } from "react-icons/fa";
+import { CiFacebook } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-function Card({id, image, info, price, name, removeTour }){
-    const[readmore, setReadmore] = useState(false);
-    const description = readmore ? info : `${info.substring(0,200)}...`;
-    function readmoreHandler(){
-        setReadmore(!readmore);
-    }
+
+
+function Card({id, image, info, name,link1,link2,link3 }){
+    
     
 
     return(
@@ -16,13 +17,19 @@ function Card({id, image, info, price, name, removeTour }){
                     {/* <h4 className="tour-price"> {price}</h4> */}
                     <h4 className="tour-name"> {name}</h4>
                 </div>
-                <div className="description"> {description} 
-                    <span className="read-more" onClick={readmoreHandler}>{readmore ? `  Show Less`: ` Read More`}
+                <div className="description"> {info} 
+                    
+                </div>
 
-                    </span>
+                <div className="flex pl-5 pt-3">
+                    <div className="p-2">
+                        <Link to={link1} target="_blank"><FaInstagramSquare /></Link></div>
+                    <div className="p-2">
+                        <Link to={link2} target="_blank"><CiFacebook /></Link></div>
+                    <div className="p-2">
+                        <Link to={link3} target="_blank"><FaLinkedin /></Link></div>
                 </div>
             </div>
-            <button className="btn-red" onClick={()=> removeTour(id)}>Instagram</button>
         </div>
     );
 }
